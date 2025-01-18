@@ -1,0 +1,4 @@
+Record=TopLevelDocument|FileName=1_PowerSupply.SchDoc|SheetNumber=1
+Record=NoMainPathDocument|SourceDocument=1_PowerSupply.SchDoc|FileName=2_MCU.SchDoc|SheetNumber=2
+Record=NoMainPathDocument|SourceDocument=1_PowerSupply.SchDoc|FileName=3_IMU_ETH.SchDoc|SheetNumber=3
+Record=NoMainPathDocument|SourceDocument=1_PowerSupply.SchDoc|FileName=4_SD_Card.SchDoc|SheetNumber=4

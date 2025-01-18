@@ -1,0 +1,855 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "imuSensor.elf"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"target_link_options",
+			"target_compile_options",
+			"target_compile_definitions",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 131,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 151,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 140,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 137,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 134,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"backtrace" : 3,
+					"fragment" : "-mthumb"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-mcpu=cortex-m4"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-mfpu=fpv4-sp-d16"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-mfloat-abi=hard"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wextra"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wpedantic"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wno-unused-parameter"
+				},
+				{
+					"fragment" : "-std=gnu11"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 4,
+					"define" : "DEBUG"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "HSE_VALUE=8000000"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "STM32L433xx"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "UNUSED_CODE"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "USE_HAL_DRIVER"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/tomek/OneDrive/Pulpit/XsensCustomDevKit/Software/imuSensor_Software_v1/Application/Inc"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/tomek/OneDrive/Pulpit/XsensCustomDevKit/Software/imuSensor_Software_v1/Libraries/CMSIS/Device/ST/STM32L4xx/Include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/tomek/OneDrive/Pulpit/XsensCustomDevKit/Software/imuSensor_Software_v1/Libraries/CMSIS/Include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/tomek/OneDrive/Pulpit/XsensCustomDevKit/Software/imuSensor_Software_v1/Drivers/Ethernet/Cfg"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/tomek/OneDrive/Pulpit/XsensCustomDevKit/Software/imuSensor_Software_v1/Drivers/Ethernet/Src"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/tomek/OneDrive/Pulpit/XsensCustomDevKit/Software/imuSensor_Software_v1/Drivers/Ethernet/Src/W5200"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/tomek/OneDrive/Pulpit/XsensCustomDevKit/Software/imuSensor_Software_v1/Libraries/FreeRTOS/Cfg"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/tomek/OneDrive/Pulpit/XsensCustomDevKit/Software/imuSensor_Software_v1/Libraries/FreeRTOS/Src"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/tomek/OneDrive/Pulpit/XsensCustomDevKit/Software/imuSensor_Software_v1/Libraries/FreeRTOS/Src/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/tomek/OneDrive/Pulpit/XsensCustomDevKit/Software/imuSensor_Software_v1/Libraries/FreeRTOS/Src/portable/GCC/ARM_CM4F"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/tomek/OneDrive/Pulpit/XsensCustomDevKit/Software/imuSensor_Software_v1/Libraries/STM32L4xx_HAL_Driver/Inc"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/tomek/OneDrive/Pulpit/XsensCustomDevKit/Software/imuSensor_Software_v1/Libraries/STM32L4xx_HAL_Driver/Inc/Legacy"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/tomek/OneDrive/Pulpit/XsensCustomDevKit/Software/imuSensor_Software_v1/Libraries/STM32L4xx_HAL_Driver/Cfg/Inc"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/tomek/OneDrive/Pulpit/XsensCustomDevKit/Software/imuSensor_Software_v1/Drivers/Xsens/Cfg"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/tomek/OneDrive/Pulpit/XsensCustomDevKit/Software/imuSensor_Software_v1/Drivers/Xsens/Src"
+				}
+			],
+			"language" : "C",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "11"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44,
+				45,
+				46,
+				47,
+				48,
+				49,
+				50,
+				51
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-mthumb"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-mcpu=cortex-m4"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-mfpu=fpv4-sp-d16"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-mfloat-abi=hard"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wextra"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wpedantic"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wno-unused-parameter"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 4,
+					"define" : "DEBUG"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "HSE_VALUE=8000000"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "STM32L433xx"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "UNUSED_CODE"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "USE_HAL_DRIVER"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/tomek/OneDrive/Pulpit/XsensCustomDevKit/Software/imuSensor_Software_v1/Application/Inc"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/tomek/OneDrive/Pulpit/XsensCustomDevKit/Software/imuSensor_Software_v1/Libraries/CMSIS/Device/ST/STM32L4xx/Include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/tomek/OneDrive/Pulpit/XsensCustomDevKit/Software/imuSensor_Software_v1/Libraries/CMSIS/Include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/tomek/OneDrive/Pulpit/XsensCustomDevKit/Software/imuSensor_Software_v1/Drivers/Ethernet/Cfg"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/tomek/OneDrive/Pulpit/XsensCustomDevKit/Software/imuSensor_Software_v1/Drivers/Ethernet/Src"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/tomek/OneDrive/Pulpit/XsensCustomDevKit/Software/imuSensor_Software_v1/Drivers/Ethernet/Src/W5200"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/tomek/OneDrive/Pulpit/XsensCustomDevKit/Software/imuSensor_Software_v1/Libraries/FreeRTOS/Cfg"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/tomek/OneDrive/Pulpit/XsensCustomDevKit/Software/imuSensor_Software_v1/Libraries/FreeRTOS/Src"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/tomek/OneDrive/Pulpit/XsensCustomDevKit/Software/imuSensor_Software_v1/Libraries/FreeRTOS/Src/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/tomek/OneDrive/Pulpit/XsensCustomDevKit/Software/imuSensor_Software_v1/Libraries/FreeRTOS/Src/portable/GCC/ARM_CM4F"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/tomek/OneDrive/Pulpit/XsensCustomDevKit/Software/imuSensor_Software_v1/Libraries/STM32L4xx_HAL_Driver/Inc"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/tomek/OneDrive/Pulpit/XsensCustomDevKit/Software/imuSensor_Software_v1/Libraries/STM32L4xx_HAL_Driver/Inc/Legacy"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/tomek/OneDrive/Pulpit/XsensCustomDevKit/Software/imuSensor_Software_v1/Libraries/STM32L4xx_HAL_Driver/Cfg/Inc"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/tomek/OneDrive/Pulpit/XsensCustomDevKit/Software/imuSensor_Software_v1/Drivers/Xsens/Cfg"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/tomek/OneDrive/Pulpit/XsensCustomDevKit/Software/imuSensor_Software_v1/Drivers/Xsens/Src"
+				}
+			],
+			"language" : "ASM",
+			"sourceIndexes" : 
+			[
+				5
+			]
+		}
+	],
+	"id" : "imuSensor::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-TC:/Users/tomek/OneDrive/Pulpit/XsensCustomDevKit/Software/imuSensor_Software_v1/STM32L433VCTX_FLASH.ld",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-mthumb",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-mcpu=cortex-m4",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-mfpu=fpv4-sp-d16",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-mfloat-abi=hard",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-Wl,-Map=imuSensor.map",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "--specs=nosys.specs",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-Wl,--start-group",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-lc",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-lm",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-lstdc++",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-lsupc++",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-Wl,--end-group",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-Wl,--print-memory-usage",
+				"role" : "flags"
+			}
+		],
+		"language" : "C"
+	},
+	"name" : "imuSensor",
+	"nameOnDisk" : "imuSensor.elf",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44,
+				45,
+				46,
+				47,
+				48,
+				49,
+				50,
+				51
+			]
+		},
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				5
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Application/Src/rtc_app.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Application/Src/w5200_app.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Application/Src/main.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Application/Src/xsens_app.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Application/Src/tasks_app.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "Startup/startup_stm32l433vctx.s",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Drivers/Ethernet/Src/socket.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Drivers/Ethernet/Cfg/w5200_config.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Drivers/Ethernet/Cfg/wizchip_conf.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Drivers/Ethernet/Src/W5200/w5200.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Libraries/FreeRTOS/Src/croutine.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Libraries/FreeRTOS/Src/event_groups.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Libraries/FreeRTOS/Src/list.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Libraries/FreeRTOS/Src/queue.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Libraries/FreeRTOS/Src/stream_buffer.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Libraries/FreeRTOS/Src/tasks.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Libraries/FreeRTOS/Src/timers.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Libraries/FreeRTOS/Src/portable/GCC/ARM_CM4F/port.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Libraries/FreeRTOS/Src/portable/MemMang/heap_4.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Libraries/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Libraries/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Libraries/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Libraries/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Libraries/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Libraries/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Libraries/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Libraries/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Libraries/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Libraries/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Libraries/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Libraries/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Libraries/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rtc_ex.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Libraries/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rtc.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Libraries/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi_ex.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Libraries/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Libraries/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Libraries/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Libraries/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Libraries/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Libraries/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Libraries/STM32L4xx_HAL_Driver/Cfg/Src/gpio.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Libraries/STM32L4xx_HAL_Driver/Cfg/Src/rtc.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Libraries/STM32L4xx_HAL_Driver/Cfg/Src/spi.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Libraries/STM32L4xx_HAL_Driver/Cfg/Src/stm32l4xx_hal_msp.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Libraries/STM32L4xx_HAL_Driver/Cfg/Src/stm32l4xx_hal_timebase_tim.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Libraries/STM32L4xx_HAL_Driver/Cfg/Src/stm32l4xx_it.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Libraries/STM32L4xx_HAL_Driver/Cfg/Src/syscalls.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Libraries/STM32L4xx_HAL_Driver/Cfg/Src/sysmem.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Libraries/STM32L4xx_HAL_Driver/Cfg/Src/system_stm32l4xx.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Libraries/STM32L4xx_HAL_Driver/Cfg/Src/tim.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Drivers/Xsens/Src/xsens_com.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Drivers/Xsens/Src/xsens_miscellaneous.c",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}
