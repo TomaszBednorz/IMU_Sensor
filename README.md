@@ -2,7 +2,7 @@
 
 The main goal of this project was to design a dedicated printed circuit board for data acquisition using an inertial measurement unit. Communication was executed via an Ethernet interface. The device had the capability to store data on a microSD card.
 
-## Scope
+## Folder structure
 
 ```
 IMU_Sensor/
