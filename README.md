@@ -13,6 +13,10 @@ IMU_Sensor/
 └─  BednorzTomasz_ProjektDyplomowy.pdf  // Thesis
 ```
 
+## Block diagram
+
+<img src="https://github.com/user-attachments/assets/d6105493-7a13-43cf-bce9-33a9dc36952e" width="720"/>
+
 ## Figures
 
 The PCB before and after the assembly process.
